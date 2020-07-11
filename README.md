@@ -4,4 +4,6 @@ Proposal uploaded as PDF File https://github.com/kafui001/PizzaEye/blob/master/C
 
 Project Management Link: https://trello.com/b/jgATK7B6/final-project-pizzaeye
 
+Classification Sheet: https://docs.google.com/spreadsheets/d/1tHjll_FINEnLHAGgzns1E8dr5ITUMw0pfnhwkONrVPw/edit#gid=0
+
 
