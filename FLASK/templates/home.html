@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div>
+<div id="image">
+    <div>
+    <div id="description">
+        <div >  
+      <h2>PizzaEye uses ML to categorise a pizza</h2>
+      <h2>based on it's shape, doneness and toppings</h2>
+       </div>
+    </div>
+    <div id="upload">
+       
+        <button type="button" class="btn btn-primary" id="imageupload">Upload an image</button> |  | 
+        <button type="button" class="btn btn-primary"><a href="#">Choose from our database</a></button>
+
+    </div>
+  </div>
+  <!-- modal section -->
+  <!-- <div class="bg-modal">
+      <div class="modal-content">
+          <div class="close">+</div>
+
+          <form action="">
+            <input id="inputfile"type="file" onchange="previewFile()"><br>
+            <img id="preview"src="" height="300" alt="Image preview">
+         
+            <button id="submit" type="button" class="btn btn-primary">Submit</button>
+          </form>
+
+      </div>
+  </div> -->
+  <!-- ############################ -->
+  <div class="bg-modal">
+    <div class="modal-content">
+        <div class="close">+</div>
+
+        <form action="/result" method="POST" enctype = "multipart/form-data">
+          <input id="inputfile" type="file" name="inputfile" onchange="previewFile()"><br>
+
+          <img id="preview"src="" height="300" >
+       
+          <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+    </div>
+</div>
+</div>
+{% endblock %}
