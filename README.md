@@ -8,6 +8,8 @@ Images Classification Sheet used as Data: https://docs.google.com/spreadsheets/d
 
 Jupyter Notebook Containing the Deep Learning Algorithm for identifying the type of pizza (cheese vs. pepperoni vs. supreme) is in the foder "type_identification" --> "topping+recognition.ipynb"
 
+Requirements.txt file in the "type_identification" folder has all the libraries including Fast AI and Pickle used in this study
+
 Trained Model: "stage_topping.pkl" in the "Models" Folder is the trained Deep Learning Model that was exported to the Flask App
 
 Run app.py to see the flask app on the local server
