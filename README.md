@@ -6,7 +6,7 @@ Project Management Link: https://trello.com/b/jgATK7B6/final-project-pizzaeye
 
 Images Classification Sheet used as Data: https://docs.google.com/spreadsheets/d/1tHjll_FINEnLHAGgzns1E8dr5ITUMw0pfnhwkONrVPw/edit#gid=0
 
-Jupyter Notebook Containing the Deep Learning Algorithm for identifying the type of pizza (cheese vs. pepperoni vs. supreme) is in the foder "type_identification" --> "topping+recognition.ipynb"
+Jupyter Notebook Containing the Deep Learning Algorithm for identifying the type of pizza (cheese vs. pepperoni vs. supreme) is in the foder "type_identification" --> "topping_recognition.ipynb"
 
 Requirements.txt file in the "type_identification" folder has all the libraries including Fast AI and Pickle used in this study
 
