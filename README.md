@@ -14,5 +14,6 @@ Trained Model: "stage_topping.pkl" in the "Models" Folder is the trained Deep Le
 
 Run app.py to see the flask app on the local server
 
+Final Presentation: https://docs.google.com/presentation/d/1Ngl4yXn-rC6e0ImZ6aat75lWGm7vgTskiYV1rNVQIio/edit?usp=sharing
 
 
