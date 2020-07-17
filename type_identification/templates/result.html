@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block content %}
+<div id="background">
+  <div id="sub_background"> 
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="{{address}}" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">toppings: {{toppings}}</h5>
+                <h5 class="card-title">Accuracy: {{toppings_accuracy}}%</h5>
+                  <hr>
+                <h5 class="card-title">shape: {{shape}}</h5>
+                <h5 class="card-title">Accuracy: {{shape_accuracy}}%</h5>
+                  <hr> 
+                <h5 class="card-title">doneness: {{doneness}}</h5>
+                <h5 class="card-title">Accuracy: {{doneness_accuracy}}%</h5>
+                  <hr>   
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>           
+  </div>
+</div>
+{% endblock %}
